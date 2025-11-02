@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact - ChronoLuxe</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⌚</text></svg>">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+	<div class="container">
+		<a class="navbar-brand" href="index.html">ChronoLuxe</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbars">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item"><a class="nav-link" href="products.html">⌚ Watches</a></li>
+				<li class="nav-item"><a class="nav-link" href="about.html">ℹ️ About</a></li>
+				<li class="nav-item"><a class="nav-link active" href="contact.html">✉️ Contact</a></li>
+			</ul>
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link position-relative" href="cart.html">🛒 Cart</a>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="login.html">🔐 Login</a></li>
+				<li class="nav-item"><a class="nav-link" href="register.html">📝 Register</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid p-0">
+<div class="container my-5" style="max-width:900px;">
+	<div class="text-center mb-4">
+		<h1 class="brand-title mb-2">Contact Us</h1>
+		<p class="text-muted mb-0">We usually reply within one business day.</p>
+	</div>
+	<div class="row g-4">
+		<div class="col-md-7">
+			<form class="card card-body border-0 shadow-sm" onsubmit="alert('Thank you for your message!'); return false;">
+				<div class="row g-3">
+					<div class="col-md-6">
+						<label class="form-label">Name</label>
+						<input type="text" name="name" class="form-control" required>
+					</div>
+					<div class="col-md-6">
+						<label class="form-label">Email</label>
+						<input type="email" name="email" class="form-control" required>
+					</div>
+					<div class="col-md-12">
+						<label class="form-label">Subject</label>
+						<input type="text" name="subject" class="form-control" required>
+					</div>
+					<div class="col-md-12">
+						<label class="form-label">Message</label>
+						<textarea name="message" rows="6" class="form-control" required></textarea>
+					</div>
+				</div>
+				<button class="btn btn-gold mt-3">Send</button>
+			</form>
+		</div>
+		<div class="col-md-5">
+			<div class="card h-100 border-0 shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title mb-3">Details</h5>
+					<ul class="list-unstyled mb-0 small text-muted">
+						<li class="mb-2">✉️ Email: chronoluxee@gmail.com</li>
+						<li class="mb-2">📞 Phone: +63 963 594 9782</li>
+						<li class="mb-2">📍 Mati, Philippines</li>
+						<li>Hours: Mon–Fri, 9:00–18:00</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<footer class="footer py-4">
+	<div class="container text-center">
+		<div class="brand-title h4 text-uppercase mb-2" style="color:#C8A951;">ChronoLuxe</div>
+		<div class="small mb-2">
+			<a href="terms.html" class="me-3">Terms</a>
+			<a href="privacy.html">Privacy</a>
+		</div>
+		<div class="small">© <span id="year"></span> ChronoLuxe. All rights reserved.</div>
+	</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
+
